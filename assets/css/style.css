@@ -1,0 +1,57 @@
+
+
+/************************* Utility *************************/
+
+/************************* Header *************************/
+
+/* --------- Left Navbar ---------*/
+.left_navbar{
+    width: 230px;
+    height: calc(100vh - 90px);
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+/* --------- Top Navbar ---------*/
+.top_navbar{
+    width: calc(100% - 230px);
+    height: 90px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: fixed;
+
+}
+
+
+/* --------- Bottom Navbar ---------*/
+
+.bottom_navbar{
+    height: 90px;
+    width: 100%;
+    background-color: darkgray;
+    bottom: 0;
+    position: fixed;
+
+}
+
+
+
+/************************* Main *************************/
+main{
+    margin-top: 90px;
+    margin-left: 230px;
+}
+
+main .prova1{
+    background-color: red;
+    height: 1300px;
+
+}
+main .prova2{
+    background-color: blue;
+    height: 1300px;
+}
+
