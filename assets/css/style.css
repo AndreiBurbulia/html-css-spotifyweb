@@ -13,18 +13,6 @@
     top: 0;
 }
 
-
-/* --------- Top Navbar ---------*/
-.top_navbar{
-    width: calc(100% - 230px);
-    height: 90px;
-    background-color: rgba(0, 0, 0, 0.75 );
-    position: absolute;
-    top: 0;
-    right: 0;
-    position: fixed;
-}
-
 .nav_voice{
     list-style: none;
     padding-left: 0;
@@ -79,6 +67,27 @@
 }
 .name_utent div:nth-of-type(2) span {
     font-weight: bold;
+}
+
+
+/* --------- Top Navbar ---------*/
+.top_navbar{
+    width: calc(100% - 230px);
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.75 );
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.top_navbar span{
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-right: 1rem;
 }
 
 /* --------- Bottom Navbar ---------*/
