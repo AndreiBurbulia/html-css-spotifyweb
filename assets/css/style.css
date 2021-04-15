@@ -101,7 +101,89 @@
 
 }
 
+/* ---- Left Bottom ----*/
 
+.left_bottom img{
+    height: 40px;
+    margin: 1rem;
+}
+.left_bottom span{
+    display: block;
+}
+
+.title_song{
+    margin: 0 3rem 0 0;
+    line-height: 15px;
+}
+.title_song span:nth-of-type(1){
+    font-weight: bold;
+}
+.title_song span:nth-of-type(2){
+    font-size: 12 px;
+    color: #707070;
+    margin-top: 5px;
+}
+.left_bottom i{
+    margin: 0 10px;
+}
+
+/* ---- Central Bottom ----*/
+.center_comand{
+    line-height: 35px;
+}
+.center_bottom i{
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.center_bottom i:nth-of-type(3){
+    font-size: 30px;
+}
+.center_bottom .line_progress{
+    display: inline-block;
+    width: 450px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #707070;
+    border-radius: 10px;
+}
+.center_bottom .progress_state{
+    width: 25%;
+    height: 5px;
+    background-color: #A3A3A3;
+    border-radius: 10px;
+}
+.center_bottom span{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+
+/* ---- Right Bottom ----*/
+.right_bottom{
+    line-height: 30px;
+}
+.right_bottom i{
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.right_bottom .line_progress{
+    display: inline-block;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #707070;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.right_bottom .progress_state{
+    width: 25%;
+    height: 5px;
+    background-color: #A3A3A3;
+    border-radius: 10px;
+
+}
 
 /************************* Main *************************/
 main{
