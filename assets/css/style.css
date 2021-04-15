@@ -29,14 +29,15 @@
     list-style: none;
     padding-left: 0;
 }
+.nav_voice li{
+    margin: 5px 0;
+}
 .nav_voice a{
     color: #707070;
     text-decoration: none;
 }
-.nav_voice a i{
-    color: #707070;
-    padding: 10px 0;
-    font-size: 25px;
+.nav_voice a img{
+    height: 25px;
 }
 
 .playlist{
@@ -57,16 +58,27 @@
 .nav_voice:last-child li{
     margin: 10px 0;
 }
-
+.name_utent{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 .name_utent div:first-child{
     color: #707070;
 }
+.name_utent div:first-child img{
+    height: 20px;
+}
+
 .name_utent hr{
     background-color: #707070;
 }
-.name_utent img{
-    height: 20px;
+.name_utent div:nth-of-type(2) img{
+    height: 30px;
     border-radius: 50%;
+}
+.name_utent div:nth-of-type(2) span {
+    font-weight: bold;
 }
 
 /* --------- Bottom Navbar ---------*/
