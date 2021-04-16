@@ -39,14 +39,24 @@
 }
 .left_playlist ul li{
     margin: 5px 0;
+    line-height: 25px;
+}
+.left_playlist ul li span{
+    vertical-align: middle;
+}
+.left_playlist div:first-child ul li:first-child{
+    border-left: 3px solid green;
+}
+.left_playlist div:first-child ul li:first-child span{
+    color: white;
 }
 .left_playlist img{
     height: 25px;
     padding-left: 1rem;
 }
 .left_playlist span{
-    color: white;
-    font-size: 13spx;
+    color: #717171;
+    font-size: 15px;;
 }
 .left_playlist .new_playlist{
     padding-left: 1rem;
@@ -63,7 +73,7 @@
     padding-left: 1rem;
 }
 .left_playlist .list_playlist ul li{
-    color: #A3A3A3;
+    color: #717171;
 }
 
 
@@ -218,8 +228,20 @@
 
 /************************* Main *************************/
 main{
-    margin-top: 90px;
+    /* margin-top: 90px; */
     margin-left: 230px;
+    background-color: #141922;
+    height: calc(100vh  - 90px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.main_container{
+    height: 100%;
+    width: 100%;
+    padding-top: 90px;
+    background-color: tomato;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
