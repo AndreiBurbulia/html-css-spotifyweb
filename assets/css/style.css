@@ -283,7 +283,6 @@
 main{
     /* margin-top: 90px; */
     margin-left: 230px;
-    background-color: #141922;
     height: calc(100vh  - 90px);
     overflow-x: hidden;
     overflow-y: auto;
@@ -292,11 +291,28 @@ main{
     height: 100%;
     width: 100%;
     padding-top: 90px;
-    background-color: tomato;
+    background-color: #141922;
     overflow-y: auto;
     overflow-x: hidden;
 }
+.main_container h2{
+    color: white;
+    font-weight: bold;
+}
+.main_container .card{
+    width: calc(100% / 7);
+}
 
+.main_voice ul li{
+    display: inline-block;
+}
+.main_voice ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    color: #717171;
+    font-weight: bold;
+}
 
 
 
