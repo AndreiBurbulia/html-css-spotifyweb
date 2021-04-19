@@ -421,6 +421,21 @@ main{
     .left_utent{
         display: none;
     }
+
+    /************************ top Navbar ************************/
+    .top_navbar{
+        visibility: hidden;
+    }
+    .top_navbar span{
+        display: none;
+    }
+
+    /************************ Main ************************/
+    .main_container{
+        padding-top: 0;
+    }
+
+
 }
 
 /************************* Media query for tablet*************************/
