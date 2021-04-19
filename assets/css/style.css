@@ -393,17 +393,16 @@ main{
     background-color: rgba(0, 0, 0, 0.246);
     position: absolute;
     top: 0;
-    display: none;
+    opacity: 0;
 }
 
 .albums:hover .overlay{
-    display: block;
+    opacity: 1;
 }
 
 .overlay i{
     color: white;
     font-size: 4rem;
-    transform: translateY(132%);
 }
 
 
@@ -455,7 +454,7 @@ main{
     }
 
     .overlay i{
-        transform: translateY(100%);
+        /* transform: translateY(100%); */
         font-size: 3rem;
     }
     
@@ -503,9 +502,7 @@ main{
     }
 
     /************************ Main ************************/
-    .overlay i{
-        transform: translateY(120%);
-    }
+    
 
 }
 
