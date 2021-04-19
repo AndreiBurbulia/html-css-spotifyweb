@@ -316,13 +316,15 @@ main{
 .main_voice ul li:hover a{
     color: white;
 }
-/* .main_voice ul li:first-child a::after{
+.main_voice ul li:first-child::after{
     content: "";
     display: block;
-    width: 20px;
+    width: 40%;
     height: 3px;
     background-color: limegreen;
-} */
+    margin: auto;
+        margin-top: -9px;
+}
 
 
 
