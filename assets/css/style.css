@@ -298,11 +298,9 @@ main{
 .main_container h2{
     color: white;
     font-weight: bold;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
 }
-.main_container .card{
-    width: calc(100% / 7);
-}
-
 .main_voice ul li{
     display: inline-block;
 }
@@ -313,8 +311,50 @@ main{
     color: #717171;
     font-weight: bold;
 }
+/* Recently played */
+
+.album{
+    position: relative;
+}
+.albums{
+    width: calc((100% / 6) - 1rem);
+    text-align: center;
+    padding: 0 1rem;
+}
+.carta{
+    height: 80%;
+}
+.album img{
+    width: 100%;
+}
+
+.albums h5{
+    color: white;
+    padding-top: 1rem;
+}
+.albums p{
+    color: #707070;
+}
 
 
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.246);
+    position: absolute;
+    top: 0;
+    display: none;
+    text-align: center;
+}
+
+.albums:hover .overlay{
+    display: block;
+}
+.overlay i{
+    color: white;
+    font-size: 4rem;
+    transform: translateY(132%);
+}
 
 /************************* Media Query *************************/
 
