@@ -1,7 +1,5 @@
 
 
-/************************* Utility *************************/
-
 /************************* Header *************************/
 
 /* ------------- Left Navbar -------------*/
@@ -13,10 +11,12 @@
     top: 0;
     position: absolute;
 }
+
 .left_logo{
     width: 100%;
     height: 80px;
 }
+
 .left_logo img{
     height: 60px;
     padding-left: 1rem;
@@ -25,25 +25,28 @@
 .left_logo_xs img{
     height: 25px;
     display: none;
-
 }
 
 .left_playlist{
     width: 100%;
     height: 82%;
 }
+
 .left_playlist ul{
     list-style: none;
     padding-left: 0;
 }
+
 .left_playlist ul li{
     margin: 5px 0;
     line-height: 25px;
 }
+
 .left_playlist ul li span{
     vertical-align: middle;
     font-weight: bold;
 }
+
 .left_playlist ul li span:hover{
     color: white;
 }
@@ -51,27 +54,34 @@
 .left_playlist div:first-child ul li:first-child{
     border-left: 3px solid green;
 }
+
 .left_playlist div:first-child ul li:first-child span{
     color: white;
 }
+
 .left_playlist img{
     height: 25px;
     padding-left: 1rem;
 }
+
 .left_playlist span{
     color: #717171;
     font-size: 15px;
     font-weight: bold;
 }
+
 .left_playlist .new_playlist{
     padding-left: 1rem;
 }
+
 .left_playlist .new_playlist:hover span{
     color: white;
 }
+
 .left_playlist .new_playlist:hover i{
     background-color: white;
 }
+
 .left_playlist .new_playlist i{
     background-color: #707070;
     font-size: 15px;
@@ -83,14 +93,15 @@
     overflow-y: auto;
     padding-left: 1rem;
 }
+
 .left_playlist .list_playlist ul li{
     color: #717171;
     font-weight: bold;
 }
+
 .left_playlist .list_playlist ul li:hover{
     color: white;
 }
-
 
 .left_utent{
     width: 100%;
@@ -104,30 +115,31 @@
 .left_utent div:first-child img{
     height: 20px;
 }
+
 .left_utent div:first-child span{
     color: #A3A3A3;
     font-weight: bold;
 }
+
 .left_utent div:first-child span:hover{
     color: white;
 }
+
 .left_utent hr{
     background-color: #707070;
 }
+
 .left_utent div:nth-of-type(2) img{
     height: 25px;
     background-color: #707070;
     border-radius: 50%;
 }
+
 .left_utent div:nth-of-type(2) span{
     color: white;
     font-weight: bold;
     margin-left: 5px;
 }
-
-
-
-
 
 
 /* ------------- Top Navbar -------------*/
@@ -163,8 +175,7 @@
     background-color: #282828;
     bottom: 0;
     position: fixed;
-    z-index: 1;
-
+    z-index: 2;
 }
 
 /* -------- Left Bottom --------*/
@@ -173,6 +184,7 @@
     height: 40px;
     margin: 1rem;
 }
+
 .left_bottom span{
     display: block;
 }
@@ -181,22 +193,27 @@
     margin: 0 3rem 0 0;
     line-height: 15px;
 }
+
 .title_song span:nth-of-type(1){
     font-weight: bold;
 }
+
 .title_song span:nth-of-type(2){
     font-size: 12px;
     color: #707070;
     margin-top: 5px;
 }
+
 .title_song span:nth-of-type(2):hover{
     text-decoration: underline;
     color: white;
 }
+
 .left_bottom i{
     margin: 0 10px;
     color: #707070;
 }
+
 .left_bottom i:hover{
     color: white;
 }
@@ -205,6 +222,7 @@
 .center_comand{
     line-height: 35px;
 }
+
 .center_bottom i{
     margin: 0 10px;
     vertical-align: middle;
@@ -213,9 +231,11 @@
 .center_bottom i:nth-of-type(3){
     font-size: 30px;
 }
+
 .center_bottom i:nth-of-type(3):hover{
     transform: scale(1.1);
 }
+
 .center_bottom .line_progress{
     display: inline-block;
     width: 400px;
@@ -224,6 +244,7 @@
     background-color: #707070;
     border-radius: 10px;
 }
+
 .center_bottom .progress_state{
     width: 25%;
     height: 5px;
@@ -231,9 +252,11 @@
     border-radius: 10px;
     position: relative;
 }
+
 .line_progress:hover .progress_state{
     background-color: lightgreen;
 }
+
 .circle_state{
     height: 15px;
     width: 15px;
@@ -244,9 +267,11 @@
     top: -5px;
     display: none;
 }
+
 .line_progress:hover .circle_state{
     display: block;
 }
+
 .center_bottom span{
     font-size: 10px;
     vertical-align: middle;
@@ -257,6 +282,7 @@
 .right_bottom{
     line-height: 30px;
 }
+
 .right_bottom i{
     vertical-align: middle;
     margin: 0 5px;
@@ -270,8 +296,8 @@
     background-color: #707070;
     border-radius: 10px;
     vertical-align: middle;
-    
 }
+
 .right_bottom .progress_state{
     width: 25%;
     height: 5px;
@@ -287,6 +313,7 @@ main{
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 .main_container{
     height: 100%;
     width: 100%;
@@ -295,16 +322,19 @@ main{
     overflow-y: auto;
     overflow-x: hidden;
 }
+
 .main_container h2{
     color: white;
     font-weight: bold;
     padding-bottom: 1rem;
     margin-top: 1rem;
 }
+
 .main_voice ul li{
     display: inline-block;
     line-height: 50px;
 }
+
 .main_voice ul li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -316,6 +346,7 @@ main{
 .main_voice ul li:hover a{
     color: white;
 }
+
 .main_voice ul li:first-child::after{
     content: "";
     display: block;
@@ -327,20 +358,22 @@ main{
 }
 
 
-
 /* Recently played */
 
 .album{
     position: relative;
 }
+
 .albums{
     width: calc((100% / 6) - 0.5rem);
     text-align: center;
     padding: 0 1rem;
 }
+
 .carta{
     height: 80%;
 }
+
 .album img{
     width: 100%;
 }
@@ -349,10 +382,10 @@ main{
     color: white;
     padding-top: 1rem;
 }
+
 .albums p{
     color: #707070;
 }
-
 
 .overlay{
     width: 100%;
@@ -361,19 +394,26 @@ main{
     position: absolute;
     top: 0;
     display: none;
-    
 }
 
 .albums:hover .overlay{
     display: block;
 }
+
 .overlay i{
     color: white;
     font-size: 4rem;
     transform: translateY(132%);
 }
 
+
+
+
+
+
+
 /************************* Media Query *************************/
+
 
 /************************* Media query for height screen *************************/
 
@@ -403,6 +443,8 @@ main{
         margin-left: 5px;
     }
 
+
+    /************************ Main ************************/
     .albums{
         width: calc((100% / 4) - 0.5rem);
         padding: 0 0.5rem;
@@ -413,8 +455,8 @@ main{
     }
 
     .overlay i{
-            transform: translateY(100%);
-            font-size: 3rem;
+        transform: translateY(100%);
+        font-size: 3rem;
     }
     
 
@@ -460,8 +502,7 @@ main{
         font-size: 1.25rem;
     }
 
-    /* Main */
-
+    /************************ Main ************************/
     .overlay i{
         transform: translateY(120%);
     }
@@ -471,10 +512,7 @@ main{
 /*********************** Media Query for XS Device ***********************/
 
 @media screen and (max-width:576px){
-    main{
-        margin-left: 40px;
-    }
-
+    
     /*********************** Top Navbar ***********************/
     .top_navbar{
         width: calc(100% - 40px);
@@ -564,8 +602,10 @@ main{
     }
 
 
-
-    /*********************** Main ***********************/
+    /************************ Main ************************/
+    main{
+        margin-left: 40px;
+    }
 
     .main_voice ul li {
         line-height: 50px;
