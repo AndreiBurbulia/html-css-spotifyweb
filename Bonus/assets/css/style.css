@@ -42,36 +42,40 @@
     line-height: 25px;
 }
 
-.left_playlist ul li span{
+.left_playlist ul li a{
     vertical-align: middle;
     font-weight: bold;
+    text-decoration: none;
 }
 
-.left_playlist ul li span:hover{
+.left_playlist ul li:hover a,
+.left_playlist ul li:hover i{
     color: white;
 }
-
-.left_playlist div:first-child ul li:first-child{
-    border-left: 3px solid green;
+.left_playlist ul li a:focus {
+    color: limegreen;
 }
 
-.left_playlist div:first-child ul li:first-child span{
-    color: white;
-}
-
-.left_playlist img{
-    height: 25px;
+.left_playlist ul li i{
+    color: #707070;
     padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-right: 5px;
 }
 
-.left_playlist span{
+.left_playlist ul li a{
     color: #717171;
     font-size: 15px;
     font-weight: bold;
+    vertical-align: super;
 }
 
 .left_playlist .new_playlist{
     padding-left: 1rem;
+}
+.left_playlist .new_playlist span{
+    color: #707070;
+    font-weight: bold;
 }
 
 .left_playlist .new_playlist:hover span{
@@ -102,6 +106,7 @@
 .left_playlist .list_playlist ul li:hover{
     color: white;
 }
+
 
 .left_utent{
     width: 100%;
@@ -154,18 +159,36 @@
     z-index: 1;
 }
 
-.top_navbar span{
+.top_navbar button{
     color: white;
     text-transform: uppercase;
     border: 1px solid white;
     padding: 10px 40px;
     border-radius: 30px;
     margin-right: 3rem;
+    background-color: transparent;
 }
 
-.top_navbar span:hover{
+.top_navbar button:hover{
     transform: scale(1.2);
 }
+.bg_button{
+    background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 0.01%);
+    height: 46px;
+    width: 237px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 30px;
+}
+ .button_box:hover .bg_button{
+    animation: lillo 0.5s linear;
+    transform: scale(1.2);
+}
+button:focus{
+    background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 76.56%);
+    color: black;
+}
+
 
 /* ------------- Bottom Navbar -------------*/
 
@@ -333,6 +356,7 @@ main{
 .main_voice ul li{
     display: inline-block;
     line-height: 50px;
+    position: relative;
 }
 
 .main_voice ul li a{
@@ -341,20 +365,28 @@ main{
     padding: 0 1rem;
     color: #717171;
     font-weight: bold;
+    position: relative;
 }
 
 .main_voice ul li:hover a{
     color: white;
 }
 
-.main_voice ul li:first-child::after{
+
+
+
+.main_voice ul li:hover:after{
     content: "";
     display: block;
-    width: 40%;
+    width: 0%;
     height: 3px;
     background-color: limegreen;
     margin: auto;
-        margin-top: -9px;
+    margin-top: -9px;
+    animation: pippo 1s linear;
+}
+.main_voice ul li a:focus{
+    color: limegreen;
 }
 
 

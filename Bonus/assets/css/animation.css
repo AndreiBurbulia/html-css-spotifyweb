@@ -1,0 +1,41 @@
+@keyframes pippo {
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 40%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+
+@keyframes lillo {
+    0%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 0.01%);
+    }
+    14%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 6.74%);
+    }
+    28%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 15.1%);  
+    }
+    42%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 20.18%);
+    }
+    56%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 20.18%);
+    }
+    70%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 27.08%);
+    }
+    84%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 44.15%);
+    }
+    
+    100%{
+        background: radial-gradient(246.74% 246.74% at 50.21% 50%, #00FF00 0%, #131B13 76.56%);
+    }
+}
+

@@ -14,6 +14,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/animation.css">
 
     <title>Spotify WebApp</title>
 </head>
@@ -34,16 +35,16 @@
                 <div>
                     <ul>
                         <li>
-                            <img src="./assets/img/home.svg" alt="House Icon">
-                            <span> Home</span>
+                            <i class="fas fa-home"></i>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <img src="./assets/img/search.svg" alt="Search Icon">
-                            <span>Search</span>
+                            <i class="fas fa-search"></i>
+                            <a href="#">Search</a>
                         </li>
                         <li>
-                            <img src="./assets/img/libreria.svg" alt="Library Icon">
-                            <span>La tua libreria</span>
+                            <i class="fas fa-book-open"></i>
+                            <a href="#">La tua libreria</a>
                         </li>
                     </ul>
                 </div>
@@ -53,13 +54,13 @@
                 </div>
                 <div class="list_playlist">
                     <ul>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
+                        <li>Release Radar</li>
+                        <li>Daly Mix 1</li>
+                        <li>Daily Mix 2</li>
+                        <li>Daily Mix 3</li>
+                        <li>Old But Gold</li>
+                        <li>Timmy Trumpet</li>
+                        <li>Deep House</li>
                     </ul>
 
                 </div>
@@ -80,7 +81,11 @@
 
         <!-- Top Navbar -->
         <section class="top_navbar d-flex align-items-center justify-content-end">
-            <span>effettua l'upgrade</span>
+            <div class="button_box">
+                <div class="bg_button"></div>
+                <button>effettua l'upgrade</button>
+
+            </div>
         </section>
         <!-- /Top Navbar -->
 
@@ -148,9 +153,12 @@
             <!-- Voci menu scelta alto -->
             <div class="main_voice d-flex flex-wrap justify-content-center pt-4">
                 <ul>
-                    <li><a href="#">In evidenza</a></li>
+                    <li> <a href="#">In evidenza</a></li>
                     <li><a href="#">podcast</a></li>
-                    <li><a href="#">classifiche</a></li>
+                    <li><a href="#">
+                            <div class="effetto"></div>
+                            classifiche
+                        </a></li>
                     <li><a href="#">generi e mood</a></li>
                     <li><a href="#">nuove uscite</a></li>
                     <li><a href="#">scopri</a></li>
