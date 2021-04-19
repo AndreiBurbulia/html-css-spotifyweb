@@ -139,6 +139,7 @@
     top: 0;
     right: 0;
     position: fixed;
+    z-index: 1;
 }
 
 .top_navbar span{
@@ -281,7 +282,6 @@
 
 /************************* Main *************************/
 main{
-    /* margin-top: 90px; */
     margin-left: 230px;
     height: calc(100vh  - 90px);
     overflow-x: hidden;
@@ -303,6 +303,7 @@ main{
 }
 .main_voice ul li{
     display: inline-block;
+    line-height: 50px;
 }
 .main_voice ul li a{
     text-decoration: none;
@@ -311,13 +312,27 @@ main{
     color: #717171;
     font-weight: bold;
 }
+
+.main_voice ul li:hover a{
+    color: white;
+}
+/* .main_voice ul li:first-child a::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: limegreen;
+} */
+
+
+
 /* Recently played */
 
 .album{
     position: relative;
 }
 .albums{
-    width: calc((100% / 6) - 1rem);
+    width: calc((100% / 6) - 0.5rem);
     text-align: center;
     padding: 0 1rem;
 }
@@ -344,7 +359,7 @@ main{
     position: absolute;
     top: 0;
     display: none;
-    text-align: center;
+    
 }
 
 .albums:hover .overlay{
@@ -365,7 +380,6 @@ main{
     .left_utent{
         display: none;
     }
-    
 }
 
 /************************* Media query for tablet*************************/
@@ -387,6 +401,20 @@ main{
         margin-left: 5px;
     }
 
+    .albums{
+        width: calc((100% / 4) - 0.5rem);
+        padding: 0 0.5rem;
+    }
+
+    .albums h5{
+        font-size: 1rem;
+    }
+
+    .overlay i{
+            transform: translateY(100%);
+            font-size: 3rem;
+    }
+    
 
 }
 /*********************** Media Query for S Device ***********************/
@@ -421,11 +449,30 @@ main{
         display: none;
     }
 
+    .albums{
+        width: calc((100% / 2) - 0.5rem);
+        padding: 0 0.5rem;
+    }
+
+    .albums h5{
+        font-size: 1.25rem;
+    }
+
+    /* Main */
+
+    .overlay i{
+        transform: translateY(120%);
+    }
+
 }
 
 /*********************** Media Query for XS Device ***********************/
 
 @media screen and (max-width:576px){
+    main{
+        margin-left: 40px;
+    }
+
     /*********************** Top Navbar ***********************/
     .top_navbar{
         width: calc(100% - 40px);
@@ -480,6 +527,10 @@ main{
        margin-top: 5px;
        margin-bottom: 8px;
     }
+    .left_playlist div:first-child ul li:first-child{
+        border-left: none;
+    }
+
     .left_logo{
         display: none;
     }
@@ -510,6 +561,22 @@ main{
         display: none;
     }
 
+
+
+    /*********************** Main ***********************/
+
+    .main_voice ul li {
+        line-height: 50px;
+    }
+
+    .albums{
+        width: calc((100% / 2) - 0.5rem);
+        padding: 0 0.5rem;
+    }
+
+    .albums h5{
+        font-size: 1.25rem;
+    }
 
 
 }
