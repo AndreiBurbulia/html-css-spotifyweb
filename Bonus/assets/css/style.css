@@ -627,8 +627,11 @@ main{
         display: none;
     }
 
-    .left_playlist span{
+    .left_playlist a{
         display: none;
+    }
+    .left_playlist ul li i{
+        padding-left: 5px;
     }
     .left_playlist img{
         padding-left: 7px;
