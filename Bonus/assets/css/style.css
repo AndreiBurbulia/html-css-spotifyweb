@@ -400,6 +400,7 @@ main{
     width: calc((100% / 6) - 0.5rem);
     text-align: center;
     padding: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 .carta{
@@ -668,7 +669,7 @@ main{
 
     .albums{
         min-width: 150px;
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
     .albums h5{

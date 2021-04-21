@@ -158,7 +158,7 @@
             </div>
 
             <!-- Titoli e copertine delle principali playlist -->
-            <h2>Recently played</h2>
+            <h2 id="titolo_prova_js">Recently played</h2>
             <div class="d-flex flex-wrap">
                 <div class="albums">
                     <div class="album">
@@ -274,6 +274,16 @@
     </main>
     <!-- /Site Main -->
 
+    <script>
+        //Writeln
+        document.writeln("Sono stato inserito con JS!");
+        //alert
+        alert("Se vuoi visualizzare la pagina clicca OK!")
+        //getelementById
+        document.getElementById("titolo_prova_js").innerHTML = "JS ha deciso che e sono Future Played"
+    </script>
+
+    <!-- <script src="./assets/js/main.js"></script> -->
 </body>
 
 </html>
